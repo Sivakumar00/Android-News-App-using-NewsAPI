@@ -15,7 +15,7 @@ import siva.com.newsapp.Remote.RetrofitClient;
 public class Common {
 
     private static final String BASE_URL="https://newsapi.org/";
-    public static final String API_KEY="eaa9279814774ae28493cbc729946a6e";
+    public static final String API_KEY="**your api key**";
 
     public static NewsService getNewsService(){
         return RetrofitClient.getClient(BASE_URL).create(NewsService.class);
